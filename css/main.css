@@ -9,14 +9,14 @@ html {
 
 body {
   vertical-align: middle;
+  margin: 0;
 }
 
-h1 {
+h2 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   display: inline-block;
   max-width: 25em;
-  margin-bottom:1.5rem;
   margin-left: 1.5rem;
 }
 
@@ -26,7 +26,8 @@ div {
 }
 
 img {
-  width: 25em;
+  width: 100%;
+  max-width: 25em;
   display: block;
 }
 
@@ -34,9 +35,12 @@ img {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   display: inline-block;
+  margin-top: 1.5rem;
   margin-left: 1.5rem;
   margin-bottom: 1.5rem;
   max-width: 25em;
+  line-height: 1.5;
+  text-align: left;
 }
 
 p {
@@ -44,17 +48,18 @@ p {
   display: inline-block;
 }
 
-a {
+.btn {
   display: inline-block;
   background-color: #f2f2f2;
   color: #666;
   border-radius: .3em;
   font-family: "Lato", sans-serif;
+  font-weight: 400;
   padding: 0.4em 0.75em 0.5em;
   text-decoration: none;
   border: 3px solid #333;
   max-width: 25em;
-  text-align: left;
+  text-align: center;
   margin-left:1.5rem;
   font-weight: 400;
 }
