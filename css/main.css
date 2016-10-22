@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
 }
 
 *, *::before, *::after {
@@ -16,8 +18,9 @@ h2 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   display: inline-block;
-  max-width: 25em;
-  margin-left: 1.5rem;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  margin: 0;
 }
 
 div {
@@ -25,9 +28,15 @@ div {
   max-width: 25em;
 }
 
+.div {
+  padding: 0;
+  margin-bottom: 1em;
+}
+
 img {
   width: 100%;
   max-width: 25em;
+  margin: 1.5rem;
   display: block;
 }
 
@@ -35,9 +44,10 @@ img {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   display: inline-block;
-  margin-top: 1.5rem;
-  margin-left: 1.5rem;
-  margin-bottom: 1.5rem;
+  padding-left: 1.5em;
+  padding-bottom: 1em;
+  padding-top: 2em;
+  margin: 0;
   max-width: 25em;
   line-height: 1.5;
   text-align: left;
@@ -60,6 +70,6 @@ p {
   border: 3px solid #333;
   max-width: 25em;
   text-align: center;
-  margin-left:1.5rem;
+  margin-left: 1.5em;
   font-weight: 400;
 }
